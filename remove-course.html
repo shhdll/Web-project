@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Planora - Remove Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header-func">
+        <header> 
+            <div class="logo">
+                <a href="index.html"><img src="planora_logo.png" alt="Smart Study Planner Logo"></a>
+            </div> 
+            
+            <nav>
+                <a href="dashboard.html">DashBoard</a> | 
+                <a href="courses.html">Courses</a> | 
+                <a href="deadlines.html">Deadlines</a> | 
+                <a href="availability.html">Availability</a> |
+                <a href="study-plan.html">Study Plan</a> |
+                <a href="statistics.html">Statistics</a> |
+                <a href="index.html" class="btn-create">Log Out</a>
+            </nav> 
+        </header>
+    </div>
+
+    <br>
+    <br>
+    <form onsubmit="alert('Course removed successfully!'); window.location.href='courses.html'; return false;">
+        <div>
+            <h1>Remove Course</h1>
+            <p>Are you sure you want to remove this course?</p>
+            <p><strong>Web Applications Development</strong></p>
+            <br>
+        </div>
+
+        <button type="submit">Yes, Remove The Course</button>
+
+        <div class="buttons">
+            <a href="courses.html">Cancel</a>
+        </div>
+    </form>
+    <br>
+
+    <footer>
+        <p>&copy 2026 Planora. All Rights Reserved. | Contact: <a href="mailto:support@planora.com">support@planora.com</a></p>
+    </footer>
+</body>
+</html>
